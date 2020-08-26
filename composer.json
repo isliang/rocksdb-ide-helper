@@ -1,0 +1,35 @@
+{
+  "name": "isliang/rocksdb-ide-helper",
+  "description": "an ide helper for rocksdb php extension",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "rocksdb php extension",
+    "ide helper"
+  ],
+  "license": [
+    "Apache-2.0"
+  ],
+  "authors": [
+    {
+      "name": "yesuhuangsi",
+      "email": "yesuhuangsi@163.com",
+      "homepage": "https://github.com/isliang",
+      "role": "Owner"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RocksDB\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  }
+}
