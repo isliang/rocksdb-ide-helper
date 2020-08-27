@@ -4,21 +4,13 @@ namespace RocksDB;
 class RocksDB
 {
     /**
-     * RocksDB constructor.
-     * @param $name string path to rocksdb
-     */
-    public function __construct($name)
-    {
-
-    }
-
-    /**
      * @param bool $readonly
+     * @param string $name
      * @return bool
      * Open the database with the specified "name"
      * if readonly is true, Open the database for read only
      */
-    public function open($readonly = false)
+    public function open($name, $readonly = false)
     {
         return true;
     }
